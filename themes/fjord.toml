@@ -1,0 +1,73 @@
+# Fjord theme for Alacritty
+# A dusk-blue base with soft leaf-green accents, amber selections, and crisp blue/cyan separation
+
+[colors.primary]
+background = "#1B2532"
+foreground = "#E8F0F3"
+dim_foreground = "#6C7A86"
+
+[colors.cursor]
+text = "#1B2532"
+cursor = "#9DD99A"
+
+[colors.vi_mode_cursor]
+text = "#1B2532"
+cursor = "#9DD99A"
+
+[colors.selection]
+text = "CellForeground"
+background = "#B8E7E9"
+
+[colors.search.matches]
+foreground = "CellBackground"
+background = "#B8E7E9"
+
+[colors.search.focused_match]
+foreground = "CellBackground"
+background = "#A1E9DE"
+
+[colors.normal]
+black = "#212128"
+red = "#F37C7C"
+green = "#9DD99A"
+yellow = "#C8B860"
+blue = "#5DA6EA"
+magenta = "#A8A4F8"
+cyan = "#B8E7E9"
+white = "#E8F0F3"
+
+[colors.bright]
+black = "#51606B"
+red = "#FF9B9B"
+green = "#A3D5A0"
+yellow = "#D4CC7A"
+blue = "#7BB8FF"
+magenta = "#C8CCF7"
+cyan = "#A1E9DE"
+white = "#EFFAFF"
+
+[colors.dim]
+black = "#2A3647"
+red = "#E48A8A"
+green = "#6FA96C"
+yellow = "#C4A85C"
+blue = "#4C89C9"
+magenta = "#9AAAD9"
+cyan = "#A9D8E7"
+white = "#A0ACB4"
+
+[colors.footer_bar]
+background = "#1F2A39"
+foreground = "#E8F0F3"
+
+[colors.hints.start]
+foreground = "#1B2532"
+background = "#B8E7E9"
+
+[colors.hints.end]
+foreground = "#1B2532"
+background = "#A1E9DE"
+
+[colors.line_indicator]
+foreground = "#E8F0F3"
+background = "#222E3F"
