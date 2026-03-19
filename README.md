@@ -1,6 +1,6 @@
 # Fjord Theme for Alacritty
 
-A dusk-blue base with soft leaf-green accents for alacritty.
+A dusk-blue base with soft leaf-green accents, amber selections, and crisp blue/cyan separation for the Alacritty terminal.
 
 ## 🎨 Color Palette
 
@@ -44,22 +44,20 @@ git clone https://github.com/fjord-themes/fjord-alacritty.git --depth 1
 
 ```bash
 mkdir -p ~/.config/alacritty/themes/
-cp fjord-Alacritty/themes/fjord.toml ~/.config/alacritty/themes/.
+cp fjord-alacritty/themes/fjord.toml ~/.config/alacritty/themes/.
 ```
 
 3. Add the theme to your Alacritty config (`~/.config/alacritty/alacritty.toml`):
+```toml
+[general]
+import = ["~/.config/alacritty/themes/fjord.toml"]
+```
 
 
 
 
 
 
-## 🔧 Configuration
-
-The theme is designed to work transparently with your terminal colors while providing optimal contrast and readability in the Alacritty editor.
-## 📸 Preview
-
-![Fjord Alacritty Theme](https://raw.githubusercontent.com/fjord-theme/fjord/main/docs/images/colortest.png)
 
 
 ## 🔄 Updates
