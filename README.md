@@ -33,29 +33,20 @@ A dusk-blue base with soft leaf-green accents, amber selections, and crisp blue/
 ### Manual Installation
 
 
-1. Clone this repository:
-
-```bash
-git clone https://github.com/fjord-themes/fjord-alacritty.git --depth 1
-```
-
-
-2. Copy the theme file to your Alacritty themes directory:
+1. Clone the theme to your config directory:
 
 ```bash
 mkdir -p ~/.config/alacritty/themes/
-cp fjord-alacritty/themes/fjord.toml ~/.config/alacritty/themes/.
+git clone https://github.com/fjord-themes/fjord-alacritty.git --depth 1 ~/.config/alacritty/themes/fjord-alacritty
 ```
 
-3. Add the theme to your Alacritty config (`~/.config/alacritty/alacritty.toml`):
+2. Add to your config (`~/.config/alacritty/alacritty.toml`):
 ```toml
 [general]
-import = ["~/.config/alacritty/themes/fjord.toml"]
+import = ["~/.config/alacritty/themes/fjord-alacritty/themes/fjord.toml"]
 ```
 
-
-
-
+3. Restart Alacritty to apply the theme.
 
 
 
