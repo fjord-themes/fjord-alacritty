@@ -2,6 +2,7 @@
 
 A dusk-blue base with soft leaf-green accents, amber selections, and crisp blue/cyan separation for the Alacritty terminal.
 
+
 ## 🎨 Color Palette
 
 ### Core Colors
@@ -47,7 +48,6 @@ import = ["~/.config/alacritty/themes/fjord-alacritty/themes/fjord.toml"]
 ```
 
 3. Restart Alacritty to apply the theme.
-
 
 
 
