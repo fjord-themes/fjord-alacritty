@@ -1,6 +1,6 @@
 # Fjord Theme for Alacritty
 
-A dusk-blue base with soft leaf-green accents, amber selections, and crisp blue/cyan separation for the Alacritty terminal.
+A dusk-blue base with soft leaf-green accents, cyan selections, and crisp blue/cyan separation for the Alacritty terminal.
 
 
 ## 🎨 Color Palette
