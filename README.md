@@ -38,7 +38,7 @@ A dusk-blue base with soft leaf-green accents, cyan selections, and crisp blue/c
 
 ```bash
 mkdir -p ~/.config/alacritty/themes/
-git clone https://git.jshuntley.com/fjord-theme/fjord-alacritty.git --depth 1 ~/.config/alacritty/themes/fjord-alacritty
+git clone https://github.com/fjord-themes/fjord-alacritty.git --depth 1 ~/.config/alacritty/themes/fjord-alacritty
 ```
 
 2. Add to your config (`~/.config/alacritty/alacritty.toml`):
