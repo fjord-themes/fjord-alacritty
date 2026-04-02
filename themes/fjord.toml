@@ -2,16 +2,16 @@
 # A dusk-blue base with soft leaf-green accents, cyan selections, and crisp blue/cyan separation
 
 [colors.primary]
-background = "#1B2532"
+background = "#1B2C32"
 foreground = "#E8F0F3"
 dim_foreground = "#6C7A86"
 
 [colors.cursor]
-text = "#1B2532"
+text = "#1B2C32"
 cursor = "#9DD99A"
 
 [colors.vi_mode_cursor]
-text = "#1B2532"
+text = "#1B2C32"
 cursor = "#9DD99A"
 
 [colors.selection]
@@ -47,7 +47,7 @@ cyan = "#A1E9DE"
 white = "#EFFAFF"
 
 [colors.dim]
-black = "#2A3647"
+black = "#2A3F47"
 red = "#E48A8A"
 green = "#6FA96C"
 yellow = "#E8B77A"
@@ -57,17 +57,17 @@ cyan = "#A9D8E7"
 white = "#A0ACB4"
 
 [colors.footer_bar]
-background = "#1F2A39"
+background = "#1F3239"
 foreground = "#E8F0F3"
 
 [colors.hints.start]
-foreground = "#1B2532"
+foreground = "#1B2C32"
 background = "#B8E7E9"
 
 [colors.hints.end]
-foreground = "#1B2532"
+foreground = "#1B2C32"
 background = "#A1E9DE"
 
 [colors.line_indicator]
 foreground = "#E8F0F3"
-background = "#222E3F"
+background = "#22373F"
